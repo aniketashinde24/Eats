@@ -1,4 +1,4 @@
-package com.app.entities;
+package com.app.pojos;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +31,7 @@ public class Cart extends BaseEntity{
 	private Customer customer;
 	
 	@OneToMany(mappedBy = "cart",  orphanRemoval = true)
-	List <CartItem> cartItems= new ArrayList<>();
+	List <CartItem> itemList= new ArrayList<>();
 
 	public Cart(double totalAmount, int quantity, Customer customer) {
 		super();
@@ -42,7 +42,12 @@ public class Cart extends BaseEntity{
 	}
 	
 	//add to items table
-	
+	public void addtoItemTables(CartItem cart) {
+		System.out.println("inside the cart list"+ itemList.size());
+		itemList.add(cart);
+		cart.setCart(this);
+		
+	}
 	
 	
 
