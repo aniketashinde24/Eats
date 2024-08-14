@@ -40,7 +40,7 @@ public class Menu extends BaseEntity{
 	
 	
 	
-	private MealType millType;
+	private MillType millType;
 	
 
 }

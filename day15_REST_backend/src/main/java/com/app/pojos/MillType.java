@@ -1,5 +1,5 @@
 package com.app.pojos;
 
-public enum MealType {
+public enum MillType {
 ALL,BREAKFAST,LUNCH,DINNER
 }
