@@ -22,7 +22,7 @@ function App() {
                        {Name:"Random Girl",
                         Location: "Pune",
                         MobileNo:"9096157771",
-                        Image: "./Image/Guy.jpg",
+                        Image: "./Image/Girl.jpg",
                         Status:1
                        }
                        
