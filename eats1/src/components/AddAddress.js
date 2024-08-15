@@ -26,12 +26,12 @@ function AddAddress() {
   }
 
   var hotelDocument = {
-    "firstName": "Praj",
-    "lastName": "Patil",
-    "email": "Praj@gmail.com",
-    "password": "Praj@123",
-    "username": "Praj123",
-    "hotelName": "The Ketan Hotel",
+    "firstName": "Satyajeet",
+    "lastName": "Desai",
+    "email": "Satya@gmail.com",
+    "password": "Satya@123",
+    "username": "Satya123",
+    "hotelName": "The Sayaji Hotel",
     "mobileNo": "8459968355",
     "hotelType": 1,
     "rating": 5,

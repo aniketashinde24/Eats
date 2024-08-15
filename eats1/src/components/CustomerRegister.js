@@ -152,7 +152,7 @@ axios.post("http://localhost:8081/day15_boot/customer/registerCustomerData",cust
             <div className="card card-registration my-4">
               <div className="row g-0">
                 <div className="col-xl-6 d-none d-xl-block">
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp" alt="Sample photo" className="img-fluid" style={{ borderTopLeftRadius: '.25rem', borderBottomLeftRadius: '.25rem' }} />
+                  <img src="./Image/food.jpg" alt="Sample photo" className="img-fluid" style={{ borderTopLeftRadius: '.25rem', borderBottomLeftRadius: '.25rem' }} />
                 </div>
                 <div className="col-xl-6">
                   <div className="card-body p-md-5 text-black">
